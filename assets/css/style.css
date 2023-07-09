@@ -264,8 +264,10 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  color: white;
+  background: #574937;
+  border: 2px solid #504331;
+  box-shadow: 0px 0px 30px rgba(227, 237, 161, 0.25);
   transition: 0.3s;
 }
 
@@ -277,7 +279,8 @@ h6 {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #312000;
+  /*color: #312000;*/
+  color: white;
   font-weight: 400;
 }
 
@@ -289,6 +292,7 @@ h6 {
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
   background-color: #ffc451;
+  color: black;
 }
 
 .navbar .dropdown:hover>ul {
@@ -433,7 +437,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/fondo.png") top center;
+  background: url("../img/UA/fondo.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -1132,7 +1136,7 @@ section {
 }
 
 .testimonials .testimonial-item p {
-  font-style: italic;
+  /*font-style: italic;*/
   margin: 0 auto 15px auto;
   color: #eee;
 }
@@ -1406,7 +1410,7 @@ section {
   padding: 15px 0;
   background: whitesmoke;
   min-height: 40px;
-  margin-top: 74px;
+  margin-top: 105px;
 }
 
 .breadcrumbs h2 {
@@ -1603,3 +1607,57 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+@font-face {
+	font-family: Mephisto;
+	src: url("../fonts/Fiolex_Mephisto.ttf");
+}
+
+h1{
+	font-family: Mephisto;
+}
+
+#hero h1{
+	font-family: Mephisto;
+}
+
+#header h1.logo{
+	margin: 0.75rem;
+}
+
+header .get-started-btn{
+	padding: 7px 10px 7px 10px;
+	margin-left: 1em;
+}
+
+a.logo img{
+	height: 4.75rem;
+}
+
+#hero a .icon-box h3{
+	color: white;
+}
+
+#hero a .icon-box h3 :hover{
+	color: #ffd584;
+}
+
+#juega .image {
+	/*background-image: url("assets/img/UA/casa.jpg"); */
+	background-image: url("../img/UA/posterAGEnigro.jpg"); 
+	background-size: 325%;
+}
+
+
+#juega p a img{
+	height: 3em;
+}
+
+dt, dd{
+	font-size: 0.8rem;
+}
+
+.card-header{
+	font-weight:bold;
+}
+
