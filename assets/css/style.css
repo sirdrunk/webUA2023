@@ -1408,14 +1408,14 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: whitesmoke;
+  background: rgb(212, 212, 212);
   min-height: 40px;
   margin-top: 105px;
 }
 
 .breadcrumbs h2 {
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .breadcrumbs ol {
@@ -1659,5 +1659,115 @@ dt, dd{
 
 .card-header{
 	font-weight:bold;
+}
+
+
+/*--------------------------------------------------------------
+# EnlcesSubpagina Section
+--------------------------------------------------------------*/
+
+section #enlaces_subpagina {
+  padding: 2rem 0;
+}
+
+#enlaces_subpagina {
+  width: 100%;
+  /*height: 20vh;*/
+  background: url("../img/UA/fondo.png") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#enlaces_subpagina:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#enlaces_subpagina .container {
+  position: relative;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+
+#enlaces_subpagina .icon-box {
+  padding: 20px 5px;
+  transition: ease-in-out 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 100%;
+  text-align: center;
+}
+
+#enlaces_subpagina .icon-box i {
+  font-size: 24px;
+  line-height: 1;
+  color: #ffc451;
+}
+
+#enlaces_subpagina .icon-box h3 {
+  font-weight: 600;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+#henlaces_subpaginaero .icon-box h3 a {
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+#enlaces_subpagina .icon-box h3 a:hover {
+  color: #ffc451;
+}
+
+#enlaces_subpagina .icon-box:hover {
+  border-color: #ffc451;
+}
+
+@media (min-width: 1024px) {
+  #enlaces_subpagina {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #enlaces_subpagina {
+    height: auto;
+  }
+
+}
+
+
+.titulo_background{
+  width: 100%;
+  background: url("../img/UA/fondo.png") center;
+  background-size: cover;
+  position: relative;
+  /*background: rgba(116, 10, 10, 0.356);*/
+  filter:hue-rotate(10deg);
+  color: black;
+  font-weight: bold;
+  scroll-margin-top: 4.5em;
+}
+
+section.inner-page{
+  padding: 30px 0;
+}
+
+.card.border-danger{
+  border-width: 3px;
+}
+
+.card-footer.border-danger{
+  background-color: #f2ccc9;
+  color: black !important;
+  font-weight: bold;
 }
 
