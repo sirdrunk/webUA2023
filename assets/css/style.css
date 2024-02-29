@@ -13,6 +13,10 @@ body {
   color: #444444;
 }
 
+html {
+  scroll-padding-top: 7rem;
+}
+
 a {
   color: #ffc451;
   text-decoration: none;
@@ -614,6 +618,7 @@ section {
 --------------------------------------------------------------*/
 .clients {
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .clients .swiper-slide img {
@@ -628,7 +633,7 @@ section {
 }
 
 .clients .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 2.5em;
   position: relative;
 }
 
@@ -644,9 +649,11 @@ section {
   background-color: #ffc451;
 }
 
+
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+
 .features {
   padding-top: 20px;
 }
