@@ -1414,15 +1414,18 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 15px 0;
-  background: rgb(212, 212, 212);
-  min-height: 40px;
-  margin-top: 105px;
+  padding: 7em 0 0.5em 0;
+  background: rgb(163, 163, 163);
+  /*min-height: 4em;*/
+  margin-top: 0px;
+  background: url("../img/UA/fondo.png") top center;
+  opacity: 0.8;
 }
 
 .breadcrumbs h2 {
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 900;
+  color: black;
 }
 
 .breadcrumbs ol {
