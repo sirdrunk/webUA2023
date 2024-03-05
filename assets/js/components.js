@@ -76,7 +76,12 @@ class UaFooter extends HTMLElement{
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
-        </div>`
+        </div>
+        </footer>
+
+        <div id="preloader"></div>
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>     
+        `
     }
 }
 
@@ -85,7 +90,6 @@ class UaHeader extends HTMLElement{
   connectedCallback(){
       var current = this.getAttribute("current");
       var inner = this.getAttribute("inner");
-      console.log(this.getAttribute("current"));
 
       this.innerHTML = `
         <header id="header" class="fixed-top ${inner ? "header-inner-pages" : ""}">
