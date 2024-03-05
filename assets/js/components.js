@@ -97,11 +97,11 @@ class UaHeader extends HTMLElement{
 
           <nav id="navbar" class="navbar order-last order-lg-0 pr-2">
             <ul>
-              <li><a class="nav-link scrollto ${current === "index" ? "active" : ""}" href="/index.html#hero">Inicio</a></li>
-              <li><a class="nav-link scrollto ${current === "servidor" ? "active" : ""}" href="/index.html#servidor">Servidor</a></li>
-              <li><a class="nav-link scrollto ${current === "jugar" ? "active" : ""}" href="/index.html#juega">Jugar</a></li>
-              <li><a class="nav-link scrollto ${current === "enlaces" ? "active" : ""}" href="/index.html#services">Enlaces</a></li>
-              <li><a class="nav-link scrollto ${current === "staff" ? "active" : ""}" href="/index.html#team">Staff</a></li>
+              <li><a class="nav-link scrollto ${current === "index" ? "active" : ""}" href="index.html#hero">Inicio</a></li>
+              <li><a class="nav-link scrollto ${current === "servidor" ? "active" : ""}" href="index.html#servidor">Servidor</a></li>
+              <li><a class="nav-link scrollto ${current === "jugar" ? "active" : ""}" href="index.html#juega">Jugar</a></li>
+              <li><a class="nav-link scrollto ${current === "enlaces" ? "active" : ""}" href="index.html#services">Enlaces</a></li>
+              <li><a class="nav-link scrollto ${current === "staff" ? "active" : ""}" href="index.html#team">Staff</a></li>
               <li><a class="nav-link scrollto ${current === "donaciones" ? "active" : ""}" href="donacion.html">Donaciones</a></li>          
               <li class="dropdown"><a href="#"><span>Enlaces Básicos</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
