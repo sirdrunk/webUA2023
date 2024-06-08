@@ -18,7 +18,9 @@ class UaFooter extends HTMLElement{
                             <a href="https://www.tiktok.com/@ultima.alianza" class="tiktok"><i class="bx bxl-tiktok"></i></a>
                             <a href="https://www.twitch.tv/devpiruz" class="twitch"><i class="bx bxl-twitch"></i></a>
                             <a href="https://www.facebook.com/pages/UASphere/113901315347603" class="facebook"><i class="bx bxl-facebook"></i></a>
-                    
+                  </div>
+                  <div id="server_status_footer" class="mt-4">
+                    <img src="assets/img/online.png" alt="online" longdesc="online">
                   </div>
                 </div>
               </div>
@@ -104,8 +106,7 @@ class UaHeader extends HTMLElement{
               <li><a class="nav-link scrollto ${current === "index" ? "active" : ""}" href="index.html#hero">Inicio</a></li>
               <li><a class="nav-link scrollto ${current === "servidor" ? "active" : ""}" href="index.html#servidor">Servidor</a></li>
               <li><a class="nav-link scrollto ${current === "jugar" ? "active" : ""}" href="index.html#juega">Jugar</a></li>
-              <li><a class="nav-link scrollto ${current === "enlaces" ? "active" : ""}" href="index.html#services">Enlaces</a></li>
-              <li><a class="nav-link scrollto ${current === "staff" ? "active" : ""}" href="index.html#team">Staff</a></li>
+              <li><a class="nav-link scrollto ${current === "normas" ? "active" : ""}" href="normas.html">Normas</a></li>
               <li><a class="nav-link scrollto ${current === "donaciones" ? "active" : ""}" href="donacion.html">Donaciones</a></li>          
               <li class="dropdown"><a href="#"><span>Enlaces Básicos</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
@@ -119,13 +120,16 @@ class UaHeader extends HTMLElement{
                     </ul>
                   </li>
                   <li><a href="https://ultima-alianza.com/foro/">Foro</a></li>
+                  <li><a href="recuperarpass.html">Recuperar Contraseña</a></li>
+                  <li><a href="">Recuperar Cuenta</a></li>
+                  <li><a href="index.html#team">Staff</a></li>
                 </ul>
               </li>
-              <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+              <li><a class="nav-link scrollto" href="index.html#team">Contacto</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
-
+          <img src="assets/img/online_icon.png" alt="online" longdesc="online" />
           <a href="#juega" class="get-started-btn scrollto">¡Juega Gratis Ya!</a>
 
         </div>
