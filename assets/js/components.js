@@ -19,8 +19,9 @@ class UaFooter extends HTMLElement{
                             <a href="https://www.twitch.tv/devpiruz" class="twitch"><i class="bx bxl-twitch"></i></a>
                             <a href="https://www.facebook.com/pages/UASphere/113901315347603" class="facebook"><i class="bx bxl-facebook"></i></a>
                   </div>
-                  <div id="server_status_footer" class="mt-4">
+                  <div id="server_status_footer" class="mt-4 d-sm-none d-md-block">
                     <img src="assets/img/online.png" alt="online" longdesc="online">
+                    <iframe src="estado_icon.php" frameborder="0" allowtransparency="true" class="iframe_estado"></iframe>
                   </div>
                 </div>
               </div>
