@@ -19,9 +19,9 @@ class UaFooter extends HTMLElement{
                             <a href="https://www.twitch.tv/devpiruz" class="twitch"><i class="bx bxl-twitch"></i></a>
                             <a href="https://www.facebook.com/pages/UASphere/113901315347603" class="facebook"><i class="bx bxl-facebook"></i></a>
                   </div>
-                  <div id="server_status_footer" class="mt-4 d-sm-none d-md-block">
+                  <div id="server_status_footer" class="mt-4">
                     <img src="assets/img/online.png" alt="online" longdesc="online">
-                    <iframe src="estado_icon.php" frameborder="0" allowtransparency="true" class="iframe_estado"></iframe>
+                    <iframe src="estado.php" frameborder="0" allowtransparency="true" class="iframe_estado"></iframe>
                   </div>
                 </div>
               </div>
@@ -130,7 +130,7 @@ class UaHeader extends HTMLElement{
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
-          <img src="assets/img/online_icon.png" alt="online" longdesc="online" />
+          <img src="estado_icon.php" alt="online" longdesc="online" class="d-none d-lg-block"/>
           <a href="#juega" class="get-started-btn scrollto">¡Juega Gratis Ya!</a>
 
         </div>

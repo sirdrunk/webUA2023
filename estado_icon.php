@@ -1,11 +1,21 @@
-<html>
-<body style="background-color:transparent;margin:0 auto;padding:0">
 <?php
+function isServerOnline($host, $port, $timeout) {
+    $connection = @fsockopen($host, $port, $errno, $errstr, $timeout);
+    if ($connection) {
+        fclose($connection);
+        return true;
+    }
+    return false;
+}
 
-$fgame = @fsockopen("servidor.ultima-alianza.com", 2593,$un,$sinn,2);
-if (!$fgame) { $fgame = @fsockopen("servidor.ultima-alianza.com", 2593,$un,$sinn,2); } // Segundo intento para evitar falsos negativos
-if ($fgame)
-	echo "<img src=\"assets/img/online.png\" alt=\"online\" longdesc=\"online\" />";
-else
-	echo "<img src=\"assets/img/offline.png\" alt=\"offline\" longdesc=\"offline\" />";
+$server = "servidor.ultima-alianza.com";
+$port = 2593;
+$timeout = 2;
+
+$online = isServerOnline($server, $port, $timeout);
+
+$imagePath = $online ? 'assets/img/online_icon.png' : 'assets/img/offline_icon.png';
+header('Content-Type: image/png');
+readfile($imagePath);
+exit();
 ?>
