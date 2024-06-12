@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+	<!-- Specific for each page -->
+	<title>Estado del Servidor - Ultima Alianza (UA)</title>
+	<meta content="Servidor español de Ultima Online (UO), ¡Bienvenido a Ultima Alianza! (UA)" name="description">
+	<meta content="mmorpg,rol,ultima,online,uo,ua,juego,servidor,free,gratuito,privado,sphere,sphereserver,mago,caballero,paladin,nigromante,skills,stats,pvp,pvm,quests,misiones,recompensas,british,osi,uoassist,razor,easyuo,uoam,runuo,uofiddler,server,spanish,centred,centred+" name="keywords">
+	<!-- End Specific for each page -->
+  
+	<meta http-equiv="content-type" content="text/html; utf-8" />
+	<meta http-equiv="content-language" content="es" />
+	<meta name="distribution" content="global" />
+	<meta name="revisit-after" content="14 days" />
+	<meta name="copyright" content="Ultima Alianza" />
+	<meta name="robots" content="NOODP">
+	<meta name="robots" content="FOLLOW,INDEX" />
+  
+	<meta property="og:title" content="Ultima Alianza - Servidor español de Ultima Online" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://ultima-alianza.com" />
+	<meta property="og:description" content="Servidor español de Ultima Online, ¡Bienvenido a Ultima Alianza!" />
+	<meta property="og:site_name" content="Ultima Alianza" />
+	<meta property="og:image" content="https://ultima-alianza.com/images/logo.png" />
+  
+  
+	<meta name="twitter:card" content="Ultima Alianza - Servidor español de Ultima Online" />
+	<meta name="twitter:description" content="Servidor español de Ultima Online, ¡Bienvenido a Ultima Alianza!" />
+	<meta name="twitter:site" content="@uasphere" />
+	<meta name="twitter:title" content="Ultima Alianza" />
+	<meta name="twitter:url" content="https://ultima-alianza.com" />
+  
+	<!-- Favicons -->
+	<link href="assets/img/logo/ua.png" rel="icon">
+  
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+	<!-- Vendor CSS Files -->
+	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+	<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+	<!-- Template Main CSS File -->
+	<link href="assets/css/style.css" rel="stylesheet">
+  
+	<!-- =======================================================
+	* Template Name: Gp - v4.10.0
+	* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+	* Author: BootstrapMade.com
+	* License: https://bootstrapmade.com/license/
+	======================================================== -->
+  
+	<script type="259ecbfce34d0135505f60e2-text/javascript">
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-592757-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+
+	<link href="assets/css/datatables.min.css" rel="stylesheet">
+	<script src="assets/js/jquery-3.7.1.min.js"></script>
+	<script src="assets/js/datatables.js"></script>
+	<script type="text/javascript" class="init">
+		$(document).ready( function () {
+			$('#estadisticas').DataTable({
+				paging: false,
+				searching: false,
+				info: false,
+				"ordering": false, // Desactiva el ordenamiento globalmente
+				"columnDefs": [
+					{ "orderable": false, "targets": "_all" } // Desactiva el ordenamiento en todas las columnas
+				]
+			});
+
+			$('#paises').DataTable({
+				paging: false,
+				searching: false,
+				info: false,
+				"ordering": false, // Desactiva el ordenamiento globalmente
+				"columnDefs": [
+					{ "orderable": false, "targets": "_all" } // Desactiva el ordenamiento en todas las columnas
+				]
+			});
+
+			$('#facciones').DataTable({
+				paging: false,
+				searching: false,
+				info: false
+			});
+			
+			$('#players1').DataTable({
+				paging: false,
+				searching: false,
+				info: false
+			});
+
+			$('#players2').DataTable({
+				paging: false,
+				searching: false,
+				info: false
+			});
+		} );
+	</script>
+  
+	<script src="assets/js/components.js"></script>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <ua-header current="contacta" inner="true"></ua-header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <h2 class="pt-3">Estado del Servidor</h2>
+          <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li>Estado del Servidor</li>
+          </ol>
+        </div>
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      	<div class="container">
+
+			<table id="estadisticas" class="mt-4 table table-striped table-bordered">
+				<thead>
+					<tr>
+						<th colspan="2">
+							<img src='assets/img/status/estadisticas.png' />  Estadísticas 
+						</th>
+					</tr>
+					<tr class="d-none">
+						<th>Descripción</th>
+						<th>Número</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><img src='assets/img/status/personajes.gif'> Personajes</td>
+						<td class="dt-type-numeric">789456</td>
+					</tr>
+					<tr>
+						<td><img src='assets/img/status/objetos.gif'> Objetos</td>
+						<td class="dt-type-numeric">324234</td>
+					</tr>
+					<tr>
+						<td><img src='assets/img/status/clanes.png'> Clanes</td>
+						<td class="dt-type-numeric">1111232</td>
+					</tr>
+					<tr>
+						<td><img src='assets/img/status/clientes.png'> Clientes</td>
+						<td class="dt-type-numeric">1231412</td>
+					</tr>
+					<tr>
+						<td><img src='assets/img/status/memoria.gif'> Memoria Usada</td>
+						<td class="dt-type-numeric">123</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table id="paises" class="mt-4 table table-striped table-bordered">
+				<thead>
+					<tr>
+						<th colspan="2">
+							<img src='assets/img/status/buscar.png'> Jugadores conectados desde...
+						</th>
+					</tr>
+					<tr  class="d-none">
+						<th>País</th>
+						<th>Jugadores</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><img src="assets/img/banderas/AR.png" title="Argentina"></td>
+						<td class="dt-type-numeric">22</td>
+					</tr>
+					<tr>
+						<td><img src="assets/img/banderas/ES.png" title="España"></td>
+						<td class="dt-type-numeric">21</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table id="facciones" class="mt-4 table table-striped table-bordered">
+				<thead>
+					<tr>
+						<th>
+							Facción 
+							<img src='assets/img/status/ali.gif'> 
+							<img src='assets/img/status/corsa.png'> 
+							<img src='assets/img/status/gn.gif'>
+						</th>
+						<th>Puntos <img src='assets/img/status/puntos.png'></th>
+						<th>Fortalezas <img src='assets/img/status/asedio.png'></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Alianza</td>
+						<td class="dt-type-numeric">1046</td>
+						<td>
+							<img style="border:0" src="assets/img/status/asedio.png">
+							<img style="border:0" src="assets/img/status/transicion.gif">
+							<img style="border:0" src="assets/img/status/balianza.gif">
+							7
+						</td>
+					</tr>
+					<tr>
+						<td>Corsarios</td>
+						<td class="dt-type-numeric">0</td>
+						<td>
+							<img style="border:0" src="assets/img/status/asedio.png">
+							<img style="border:0" src="assets/img/status/transicion.gif">
+							<img style="border:0" src="assets/img/status/balianza.gif">
+							<img style="border:0" src="assets/img/status/transicion.gif">
+							<img style="border:0" src="assets/img/status/balianza.gif">
+							4
+						</td>
+					</tr>
+					<tr>
+						<td>Guardia Negra</td>
+						<td class="dt-type-numeric">123</td>
+						<td>
+							<img style="border:0" src="assets/img/status/asedio.png">
+							<img style="border:0" src="assets/img/status/transicion.gif">
+							<img style="border:0" src="assets/img/status/balianza.gif">
+							<img style="border:0" src="assets/img/status/transicion.gif">
+							<img style="border:0" src="assets/img/status/balianza.gif">
+							4
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table id="players1" class="table table-striped table-bordered">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Clan</th>
+						<th><Facción</th>
+						<th>Rango</th>
+						<th>Fama Facción</th>
+						<th>Fama</th>
+						<th>Karma</th>
+						<th>Lugar</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Amro</td>
+						<td>Resurgidos</td>
+						<td>Alianza</td>
+						<td>Puppet</td>
+						<td class="dt-type-numeric">12123</td>
+						<td class="dt-type-numeric">100000</td>
+						<td class="dt-type-numeric">1000000</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Amro</td>
+						<td>Resurgidos</td>
+						<td>Alianza</td>
+						<td>Puppet</td>
+						<td class="dt-type-numeric">12123</td>
+						<td class="dt-type-numeric">100000</td>
+						<td class="dt-type-numeric">1000000</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Amro</td>
+						<td>Resurgidos</td>
+						<td>Alianza</td>
+						<td>Puppet</td>
+						<td class="dt-type-numeric">12123</td>
+						<td class="dt-type-numeric">100000</td>
+						<td class="dt-type-numeric">1000000</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Amro</td>
+						<td>Resurgidos</td>
+						<td>Alianza</td>
+						<td>Puppet</td>
+						<td class="dt-type-numeric">12123</td>
+						<td class="dt-type-numeric">100000</td>
+						<td class="dt-type-numeric">1000000</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Amro</td>
+						<td>Resurgidos</td>
+						<td>Alianza</td>
+						<td>Puppet</td>
+						<td class="dt-type-numeric">12123</td>
+						<td class="dt-type-numeric">100000</td>
+						<td class="dt-type-numeric">1000000</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Amro</td>
+						<td>Resurgidos</td>
+						<td>Alianza</td>
+						<td>Puppet</td>
+						<td class="dt-type-numeric">12123</td>
+						<td class="dt-type-numeric">100000</td>
+						<td class="dt-type-numeric">1000000</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table id="players2" class="table table-striped table-bordered">
+				<thead>
+					<tr role="row">
+						<th>Nombre</th>
+						<th>Clan</th>
+						<th>Facción</th>
+						<th>Reputación Facción</th>
+						<th>Fama Facción</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Hoisin</td>
+						<td>Revenge</td>
+						<td>Mercenario</td>
+						<td class="dt-type-numeric">463</td>
+						<td class="dt-type-numeric">22</td>
+					</tr>
+					<tr>
+						<td>Hoisin</td>
+						<td>Revenge</td>
+						<td>Mercenario</td>
+						<td class="dt-type-numeric">463</td>
+						<td class="dt-type-numeric">463</td>
+					</tr>
+					<tr>
+						<td>Hoisin</td>
+						<td>Revenge</td>
+						<td>Mercenario</td>
+						<td>463</td>
+						<td>22</td>
+					</tr>
+					<tr>
+						<td>Hoisin</td>
+						<td>Revenge</td>
+						<td>Mercenario</td>
+						<td>463</td>
+						<td>22</td>
+					</tr>
+					<tr>
+						<td>Hoisin</td>
+						<td>Revenge</td>
+						<td>Mercenario</td>
+						<td>463</td>
+						<td>22</td>
+					</tr>			
+				</tbody>
+			</table>
+			
+		</section>
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<ua-footer></ua-footer>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
