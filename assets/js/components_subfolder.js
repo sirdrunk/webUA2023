@@ -120,6 +120,7 @@ class UaHeader extends HTMLElement{
                     </ul>
                   </li>
                   <li><a href="https://ultima-alianza.com/foro/">Foro</a></li>
+                  <li><a href="../changelog/index.html">Changelog</a></li>
                   <li><a href="../clave.html">Recuperar Contraseña</a></li>
                   <li><a href="">Recuperar Cuenta</a></li>
                   <li><a href="../index.html#team">Staff</a></li>
