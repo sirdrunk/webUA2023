@@ -20,7 +20,6 @@ class UaFooter extends HTMLElement{
                             <a href="https://www.facebook.com/pages/UASphere/113901315347603" class="facebook"><i class="bx bxl-facebook"></i></a>
                   </div>
                   <div id="server_status_footer" class="mt-4">
-                    <img src="../assets/img/online.png" alt="online" longdesc="online">
                     <iframe src="../estado.php" frameborder="0" allowtransparency="true" class="iframe_estado"></iframe>
                   </div>
                 </div>
@@ -121,7 +120,7 @@ class UaHeader extends HTMLElement{
                     </ul>
                   </li>
                   <li><a href="https://ultima-alianza.com/foro/">Foro</a></li>
-                  <li><a href="../recuperarpass.html">Recuperar Contraseña</a></li>
+                  <li><a href="../clave.html">Recuperar Contraseña</a></li>
                   <li><a href="">Recuperar Cuenta</a></li>
                   <li><a href="../index.html#team">Staff</a></li>
                 </ul>
@@ -130,7 +129,7 @@ class UaHeader extends HTMLElement{
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
-          <img src="../estado_icon.php" alt="online" longdesc="online" class="d-none d-lg-block"/>
+          <img src="../estado_icon.php" alt="online" longdesc="online" class="ml-4 d-none d-lg-block"/>
           <a href="#juega" class="get-started-btn scrollto">¡Juega Gratis Ya!</a>
 
         </div>
