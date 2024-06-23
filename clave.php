@@ -73,43 +73,42 @@
 </head>
 
 <body>
-  <?php include_once("analytics.php") ?>
-  <!-- ======= Header ======= -->
-  <ua-header current="recuperar" inner="true"></ua-header><!-- End Header -->
+	<?php include_once("analytics.php") ?>
+ 	 <!-- ======= Header ======= -->
+  	<ua-header current="recuperar" inner="true"></ua-header><!-- End Header -->
 
-  <main id="main">
+ 	<main id="main">
+		<!-- ======= Breadcrumbs ======= -->
+		<section class="breadcrumbs">
+			<div class="container">
+				<div class="d-flex justify-content-between align-items-center">
+				<h2 class="pt-3">Recuperación de Contraseña</h2>
+				<ol>
+					<li><a href="index.html">Inicio</a></li>
+					<li>Recuperación de Contraseña</li>
+				</ol>
+				</div>
+			</div>
+		</section><!-- End Breadcrumbs -->
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-          <h2 class="pt-3">Recuperación de Contraseña</h2>
-          <ol>
-            <li><a href="index.html">Inicio</a></li>
-            <li>Recuperación de Contraseña</li>
-          </ol>
-        </div>
-      </div>
-    </section><!-- End Breadcrumbs -->
+		<section class="inner-page">
+		<div class="container">
+			<div id="recupera_pass" class="row">
+				<div class="col">
+					<p><img src="assets/img/candado_completo.jpg" class="img_fluid"/></p>
+				</div>
+				<div class="col">
+					<h2 class="pt-3">Recuperación de Contraseña</h2>
+					<?php include("C://UA//Servidor//Sphere//Web//cuenta//clave.php"); ?>
+				</div>
+			</div>
+			
+			
+			</div>
+		</div>
+		</section>
 
-    <section class="inner-page">
-      <div class="container">
-          <div id="recupera_pass" class="row">
-            <div class="col">
-              <p><img src="assets/img/candado_completo.jpg" /></p>
-            </div>
-            <div class="col">
-              <h2 class="pt-3">Recuperación de Contraseña</h2>
-			  <?php include("C://UA//Servidor//Sphere//Web//cuenta//clave.php"); ?>
-            </div>
-          </div>
-        
-        
-        </div>
-      </div>
-    </section>
-
-  </main><!-- End #main -->
+  	</main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <ua-footer></ua-footer>
@@ -127,5 +126,4 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>

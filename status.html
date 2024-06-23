@@ -74,6 +74,9 @@
 	<script src="assets/js/datatables.js"></script>
 	<script type="text/javascript" class="init">
 		$(document).ready( function () {
+			$(function () {
+				$('[data-toggle="tooltip"]').tooltip()
+			});
 			$('#estadisticas').DataTable({
 				paging: false,
 				searching: false,
@@ -140,67 +143,71 @@
 
     <section class="inner-page">
       	<div class="container">
-
-			<table id="estadisticas" class="mt-4 table table-striped table-bordered">
-				<thead>
-					<tr>
-						<th colspan="2">
-							<img src='assets/img/status/estadisticas.png' />  Estadísticas 
-						</th>
-					</tr>
-					<tr class="d-none">
-						<th>Descripción</th>
-						<th>Número</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><img src='assets/img/status/personajes.gif'> Personajes</td>
-						<td class="dt-type-numeric">789456</td>
-					</tr>
-					<tr>
-						<td><img src='assets/img/status/objetos.gif'> Objetos</td>
-						<td class="dt-type-numeric">324234</td>
-					</tr>
-					<tr>
-						<td><img src='assets/img/status/clanes.png'> Clanes</td>
-						<td class="dt-type-numeric">1111232</td>
-					</tr>
-					<tr>
-						<td><img src='assets/img/status/clientes.png'> Clientes</td>
-						<td class="dt-type-numeric">1231412</td>
-					</tr>
-					<tr>
-						<td><img src='assets/img/status/memoria.gif'> Memoria Usada</td>
-						<td class="dt-type-numeric">123</td>
-					</tr>
-				</tbody>
-			</table>
-
-			<table id="paises" class="mt-4 table table-striped table-bordered">
-				<thead>
-					<tr>
-						<th colspan="2">
-							<img src='assets/img/status/buscar.png'> Jugadores conectados desde...
-						</th>
-					</tr>
-					<tr  class="d-none">
-						<th>País</th>
-						<th>Jugadores</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><img src="assets/img/banderas/AR.png" title="Argentina"></td>
-						<td class="dt-type-numeric">22</td>
-					</tr>
-					<tr>
-						<td><img src="assets/img/banderas/ES.png" title="España"></td>
-						<td class="dt-type-numeric">21</td>
-					</tr>
-				</tbody>
-			</table>
-
+			<div class="row">
+				<div class="col">
+					<table id="estadisticas" class="mt-4 table table-striped table-bordered">
+						<thead>
+							<tr>
+								<th colspan="2">
+									<img src='assets/img/status/estadisticas.png' />  Estadísticas 
+								</th>
+							</tr>
+							<tr class="d-none">
+								<th>Descripción</th>
+								<th>Número</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><img src='assets/img/status/personajes.gif'> Personajes</td>
+								<td class="dt-type-numeric">789456</td>
+							</tr>
+							<tr>
+								<td><img src='assets/img/status/objetos.gif'> Objetos</td>
+								<td class="dt-type-numeric">324234</td>
+							</tr>
+							<tr>
+								<td><img src='assets/img/status/clanes.png'> Clanes</td>
+								<td class="dt-type-numeric">1111232</td>
+							</tr>
+							<tr>
+								<td><img src='assets/img/status/clientes.png'> Clientes</td>
+								<td class="dt-type-numeric">1231412</td>
+							</tr>
+							<tr>
+								<td><img src='assets/img/status/memoria.gif'> Memoria Usada</td>
+								<td class="dt-type-numeric">123</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col">
+					<table id="paises" class="mt-4 table table-striped table-bordered">
+						<thead>
+							<tr>
+								<th colspan="2">
+									<img src='assets/img/status/buscar.png'> Jugadores conectados desde...
+								</th>
+							</tr>
+							<tr  class="d-none">
+								<th>País</th>
+								<th>Jugadores</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><img src="assets/img/banderas/AR.png" title="Argentina"></td>
+								<td class="dt-type-numeric">22</td>
+							</tr>
+							<tr>
+								<td><img src="assets/img/banderas/ES.png" title="España"></td>
+								<td class="dt-type-numeric">21</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		
 			<table id="facciones" class="mt-4 table table-striped table-bordered">
 				<thead>
 					<tr>
@@ -219,7 +226,17 @@
 						<td>Alianza</td>
 						<td class="dt-type-numeric">1046</td>
 						<td>
-							<img style="border:0" src="assets/img/status/asedio.png">
+							<a class="Ntooltip" href="#">
+								<img style="border:0" src="assets/img/status/asedio.png">
+									<span>
+										<center>
+											<img style="border:0" src="assets/img/status/alianza.gif">
+											<br>Fortaleza Bet-Lem Reg (Tejo)
+											<br>X: 1250 Y: 944 M: 5
+											<br><font color="#0CFF00">Conquistable</font>
+										</center>
+									</span>
+							</a>
 							<img style="border:0" src="assets/img/status/transicion.gif">
 							<img style="border:0" src="assets/img/status/balianza.gif">
 							7

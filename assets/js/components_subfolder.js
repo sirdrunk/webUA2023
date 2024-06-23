@@ -102,7 +102,7 @@ class UaHeader extends HTMLElement{
           <!-- Uncomment below if you prefer to use an image logo -->
           
 
-          <nav id="navbar" class="navbar order-last order-lg-0 pr-2">
+          <nav id="navbar" class="navbar navbar-expand-lg navbar-dark order-last order-lg-0 pr-2">
             <ul>
               <li><a class="nav-link scrollto ${current === "index" ? "active" : ""}" href="../index.html#hero">Inicio</a></li>
               <li><a class="nav-link scrollto ${current === "servidor" ? "active" : ""}" href="../index.html#servidor">Servidor</a></li>
