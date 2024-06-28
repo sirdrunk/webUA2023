@@ -28,16 +28,15 @@ class UaFooter extends HTMLElement{
               <div class="col-lg-2 col-md-6 footer-links">
                 <h4>Vínculos UA</h4>
                 <ul>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Wiki</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Estado del Servidor</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Foro</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Staff</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="../index.html">Inicio</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://ultima-alianza.com/wiki/index.php/P%C3%A1gina_principal">Wiki</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="../status.php">Estado del Servidor</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://ultima-alianza.com/foro/">Foro</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="../index.html#team">Staff</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="#">Bestiario</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="#">Mapas</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="#">Torneos</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Chat - Discord</a></li>
-    
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://discordapp.com/invite/RFwnP6d">Chat - Discord</a></li>
                 </ul>
               </div>
     
@@ -55,11 +54,12 @@ class UaFooter extends HTMLElement{
               </div>
     
               <div class="col-lg-4 col-md-6 footer-newsletter">
-                <h4>Newsletter - No te pierdas nada</h4>
+                <!--<h4>Newsletter - No te pierdas nada</h4>
                 <p>Prometemos spamear poco, un correo al mes como mucho... y todas las news tienen premio!</p>
                 <form action="" method="post">
                   <input type="email" name="email"><input type="submit" value="Subscribe">
                 </form>
+                -->
     
               </div>
     

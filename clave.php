@@ -75,7 +75,7 @@
 <body>
 	<?php include_once("analytics.php") ?>
  	 <!-- ======= Header ======= -->
-  	<ua-header current="recuperar" inner="true"></ua-header><!-- End Header -->
+  	<ua-header current="recuperar" inner="false"></ua-header><!-- End Header -->
 
  	<main id="main">
 		<!-- ======= Breadcrumbs ======= -->
