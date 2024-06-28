@@ -70,6 +70,8 @@
   
 	<script src="../assets/js/components_subfolder.js"></script>
 
+	<script src="../assets/js/jquery-3.7.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -92,56 +94,165 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section class="inner-page">
+	<section class="inner-page">
       <div class="container">
-		<div class="border rounded p-3 mb-4">
-			<p class="fechaHora">Generado de manera automática el 09/06/2024 a las 19:02:53,14</p> 
-			<p class="campio">2024-06-05 - Coolforehand: + reducido daño calderas de aceite </p> 
-			<p class="campio">2024-06-05 - Coolforehand: + Capado bastón del equilibrio </p> 
-			<p class="campio">2024-06-03 - SirDrunk: +Fallo trono no se apaga de manera correcta </p> 
-			<p class="campio">2024-05-26 - SirDrunk: +Phasma ahora siempre da montura. Tiene 50% de 2. </p> 
-			<p class="campio">2024-05-19 - SirDrunk: + Nuevos stats npcs champ star wars </p> 
-			<p class="campio">2024-05-06 - SirDrunk: + Plaga de raices bajas </p> 
-			<p class="campio">2024-05-01 - SirDrunk: + Terminada fase 2 de cerrajería. </p> 
-			<p class="campio">2024-04-30 - SirDrunk: + Solución fallo de la magia del wyrm blanco </p> 
-			<p class="campio">2024-04-30 - SirDrunk: + Nuevo mensaje para tejedor de mapas </p> 
-			<p class="campio">2024-04-30 - SirDrunk: + Bods de escriba, nuevo tinte para libros con colores especiales. </p> 
-			<p class="campio">2024-04-28 - SirDrunk: + Convierte champis de mario en festejos </p> 
-			<p class="campio">2024-04-28 - SirDrunk: + fallo teleport vampirico </p> 
-			<p class="campio">2024-04-21 - SirDrunk: + Familia Yoshi salen con el nombre mal </p> 
-			<p class="campio">2024-04-21 - SirDrunk: + Yoshi, usura y boshi listos para salir </p> 
-			<p class="campio">2024-04-16 - SirDrunk: + Cierre de tronos. Un trono cerrado por gm no puede ser abierto </p> 
-			<p class="campio">2024-04-15 - SirDrunk: + Npcs de faccion devuelven a no facciones </p> 
-			<p class="campio">2024-04-15 - SirDrunk: + Npcs de facción tienen menos skills y acierto </p> 
-			<p class="campio">2024-04-15 - SirDrunk: + Más seguridad trono </p> 
-			<p class="campio">2024-04-15 - SirDrunk: + Update stats  npcs de mario </p> 
-			<p class="campio">2024-04-15 - SirDrunk: + Mejora mensajes y seguridad de armadura demoniaca de ocllo. </p> 
-			<a class="font-weight-bold" href="#main">Subir</a>
+		
+		<a id="2024" class="dark_red font-weight-bold" data-toggle="collapse" href="#changelog_2024" role="button" aria-expanded="true" aria-controls="changelog_2024"><h3>2024</h3></a>
+		<div id="changelog_2024" class="collapse show ml-4" data-parent="#2024">
+			<div id="accordion">
+				<div class="card">
+				  <div class="card-header" id="headingOne">
+					<h5 class="mb-0">
+					  <button class="btn btn-link dark_red font-weight-bold" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						Generado de manera automática el 09/06/2024 a las 19:02:53,14
+					  </button>
+					</h5>
+				  </div>
+			  
+				  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+					<div class="card-body">
+						<p class="campio">2024-06-05 - Coolforehand: + reducido daño calderas de aceite </p> 
+						<p class="campio">2024-06-05 - Coolforehand: + Capado bastón del equilibrio </p> 
+						<p class="campio">2024-06-03 - SirDrunk: +Fallo trono no se apaga de manera correcta </p> 
+						<p class="campio">2024-05-26 - SirDrunk: +Phasma ahora siempre da montura. Tiene 50% de 2. </p> 
+						<p class="campio">2024-05-19 - SirDrunk: + Nuevos stats npcs champ star wars </p> 
+						<p class="campio">2024-05-06 - SirDrunk: + Plaga de raices bajas </p> 
+						<p class="campio">2024-05-01 - SirDrunk: + Terminada fase 2 de cerrajería. </p> 
+						<p class="campio">2024-04-30 - SirDrunk: + Solución fallo de la magia del wyrm blanco </p> 
+						<p class="campio">2024-04-30 - SirDrunk: + Nuevo mensaje para tejedor de mapas </p> 
+						<p class="campio">2024-04-30 - SirDrunk: + Bods de escriba, nuevo tinte para libros con colores especiales. </p> 
+						<p class="campio">2024-04-28 - SirDrunk: + Convierte champis de mario en festejos </p> 
+						<p class="campio">2024-04-28 - SirDrunk: + fallo teleport vampirico </p> 
+						<p class="campio">2024-04-21 - SirDrunk: + Familia Yoshi salen con el nombre mal </p> 
+						<p class="campio">2024-04-21 - SirDrunk: + Yoshi, usura y boshi listos para salir </p> 
+						<p class="campio">2024-04-16 - SirDrunk: + Cierre de tronos. Un trono cerrado por gm no puede ser abierto </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Npcs de faccion devuelven a no facciones </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Npcs de facción tienen menos skills y acierto </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Más seguridad trono </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Update stats  npcs de mario </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Mejora mensajes y seguridad de armadura demoniaca de ocllo. </p> 
+					</div>
+				  </div>
+				</div>
+				<div class="card">
+				  <div class="card-header" id="headingTwo">
+					<h5 class="mb-0">
+					  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						Generado de manera automática el 09/06/2024 a las 19:02:53,14
+					  </button>
+					</h5>
+				  </div>
+				  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+					<div class="card-body">
+						<p class="campio">2024-06-05 - Coolforehand: + reducido daño calderas de aceite </p> 
+						<p class="campio">2024-06-05 - Coolforehand: + Capado bastón del equilibrio </p> 
+						<p class="campio">2024-06-03 - SirDrunk: +Fallo trono no se apaga de manera correcta </p> 
+						<p class="campio">2024-05-26 - SirDrunk: +Phasma ahora siempre da montura. Tiene 50% de 2. </p> 
+						<p class="campio">2024-05-19 - SirDrunk: + Nuevos stats npcs champ star wars </p> 
+						<p class="campio">2024-05-06 - SirDrunk: + Plaga de raices bajas </p> 
+						<p class="campio">2024-05-01 - SirDrunk: + Terminada fase 2 de cerrajería. </p> 
+						<p class="campio">2024-04-30 - SirDrunk: + Solución fallo de la magia del wyrm blanco </p> 
+						<p class="campio">2024-04-30 - SirDrunk: + Nuevo mensaje para tejedor de mapas </p> 
+						<p class="campio">2024-04-30 - SirDrunk: + Bods de escriba, nuevo tinte para libros con colores especiales. </p> 
+						<p class="campio">2024-04-28 - SirDrunk: + Convierte champis de mario en festejos </p> 
+						<p class="campio">2024-04-28 - SirDrunk: + fallo teleport vampirico </p> 
+						<p class="campio">2024-04-21 - SirDrunk: + Familia Yoshi salen con el nombre mal </p> 
+						<p class="campio">2024-04-21 - SirDrunk: + Yoshi, usura y boshi listos para salir </p> 
+						<p class="campio">2024-04-16 - SirDrunk: + Cierre de tronos. Un trono cerrado por gm no puede ser abierto </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Npcs de faccion devuelven a no facciones </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Npcs de facción tienen menos skills y acierto </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Más seguridad trono </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Update stats  npcs de mario </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Mejora mensajes y seguridad de armadura demoniaca de ocllo. </p> 
+					</div>
+				  </div>
+				</div>
+				<div class="card">
+				  <div class="card-header" id="headingThree">
+					<h5 class="mb-0">
+					  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						Generado de manera automática el 09/06/2024 a las 19:02:53,14
+					  </button>
+					</h5>
+				  </div>
+				  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					<div class="card-body">
+						<p class="campio">2024-06-05 - Coolforehand: + reducido daño calderas de aceite </p> 
+						<p class="campio">2024-06-05 - Coolforehand: + Capado bastón del equilibrio </p> 
+						<p class="campio">2024-06-03 - SirDrunk: +Fallo trono no se apaga de manera correcta </p> 
+						<p class="campio">2024-05-26 - SirDrunk: +Phasma ahora siempre da montura. Tiene 50% de 2. </p> 
+						<p class="campio">2024-05-19 - SirDrunk: + Nuevos stats npcs champ star wars </p> 
+						<p class="campio">2024-05-06 - SirDrunk: + Plaga de raices bajas </p> 
+						<p class="campio">2024-05-01 - SirDrunk: + Terminada fase 2 de cerrajería. </p> 
+						<p class="campio">2024-04-30 - SirDrunk: + Solución fallo de la magia del wyrm blanco </p> 
+						<p class="campio">2024-04-30 - SirDrunk: + Nuevo mensaje para tejedor de mapas </p> 
+						<p class="campio">2024-04-30 - SirDrunk: + Bods de escriba, nuevo tinte para libros con colores especiales. </p> 
+						<p class="campio">2024-04-28 - SirDrunk: + Convierte champis de mario en festejos </p> 
+						<p class="campio">2024-04-28 - SirDrunk: + fallo teleport vampirico </p> 
+						<p class="campio">2024-04-21 - SirDrunk: + Familia Yoshi salen con el nombre mal </p> 
+						<p class="campio">2024-04-21 - SirDrunk: + Yoshi, usura y boshi listos para salir </p> 
+						<p class="campio">2024-04-16 - SirDrunk: + Cierre de tronos. Un trono cerrado por gm no puede ser abierto </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Npcs de faccion devuelven a no facciones </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Npcs de facción tienen menos skills y acierto </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Más seguridad trono </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Update stats  npcs de mario </p> 
+						<p class="campio">2024-04-15 - SirDrunk: + Mejora mensajes y seguridad de armadura demoniaca de ocllo. </p> 
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<h3>2023</h3>
+			<div class="border rounded p-3 mb-4">
+				<p class="fechaHora">Generado de manera automática el 09/06/2024 a las 19:02:53,14</p> 
+				<p class="campio">2024-06-05 - Coolforehand: + reducido daño calderas de aceite </p> 
+				<p class="campio">2024-06-05 - Coolforehand: + Capado bastón del equilibrio </p> 
+				<p class="campio">2024-06-03 - SirDrunk: +Fallo trono no se apaga de manera correcta </p> 
+				<p class="campio">2024-05-26 - SirDrunk: +Phasma ahora siempre da montura. Tiene 50% de 2. </p> 
+				<p class="campio">2024-05-19 - SirDrunk: + Nuevos stats npcs champ star wars </p> 
+				<p class="campio">2024-05-06 - SirDrunk: + Plaga de raices bajas </p> 
+				<p class="campio">2024-05-01 - SirDrunk: + Terminada fase 2 de cerrajería. </p> 
+				<p class="campio">2024-04-30 - SirDrunk: + Solución fallo de la magia del wyrm blanco </p> 
+				<p class="campio">2024-04-30 - SirDrunk: + Nuevo mensaje para tejedor de mapas </p> 
+				<p class="campio">2024-04-30 - SirDrunk: + Bods de escriba, nuevo tinte para libros con colores especiales. </p> 
+				<p class="campio">2024-04-28 - SirDrunk: + Convierte champis de mario en festejos </p> 
+				<p class="campio">2024-04-28 - SirDrunk: + fallo teleport vampirico </p> 
+				<p class="campio">2024-04-21 - SirDrunk: + Familia Yoshi salen con el nombre mal </p> 
+				<p class="campio">2024-04-21 - SirDrunk: + Yoshi, usura y boshi listos para salir </p> 
+				<p class="campio">2024-04-16 - SirDrunk: + Cierre de tronos. Un trono cerrado por gm no puede ser abierto </p> 
+				<p class="campio">2024-04-15 - SirDrunk: + Npcs de faccion devuelven a no facciones </p> 
+				<p class="campio">2024-04-15 - SirDrunk: + Npcs de facción tienen menos skills y acierto </p> 
+				<p class="campio">2024-04-15 - SirDrunk: + Más seguridad trono </p> 
+				<p class="campio">2024-04-15 - SirDrunk: + Update stats  npcs de mario </p> 
+				<p class="campio">2024-04-15 - SirDrunk: + Mejora mensajes y seguridad de armadura demoniaca de ocllo. </p> 
+				<a class="font-weight-bold" href="#main">Subir</a>
+			</div>
+			<div class="border rounded p-3 mb-4">
+				<p class="fechaHora">Generado de manera automática el 09/06/2024 a las 19:02:53,71</p> 
+				<p class="campio">2024-06-05 - Coolforehand: + reducido daño calderas de aceite </p> 
+				<p class="campio">2024-06-05 - Coolforehand: + Capado bastón del equilibrio </p> 
+				<p class="campio">2024-06-03 - SirDrunk: +Fallo trono no se apaga de manera correcta </p> 
+				<p class="campio">2024-05-26 - SirDrunk: +Phasma ahora siempre da montura. Tiene 50% de 2. </p> 
+				<p class="campio">2024-05-19 - SirDrunk: + Nuevos stats npcs champ star wars </p> 
+				<p class="campio">2024-05-06 - SirDrunk: + Plaga de raices bajas </p> 
+				<p class="campio">2024-05-01 - SirDrunk: + Terminada fase 2 de cerrajería. </p> 
+				<p class="campio">2024-04-30 - SirDrunk: + Solución fallo de la magia del wyrm blanco </p> 
+				<p class="campio">2024-04-30 - SirDrunk: + Nuevo mensaje para tejedor de mapas </p> 
+				<p class="campio">2024-04-30 - SirDrunk: + Bods de escriba, nuevo tinte para libros con colores especiales. </p> 
+				<p class="campio">2024-04-28 - SirDrunk: + Convierte champis de mario en festejos </p> 
+				<p class="campio">2024-04-28 - SirDrunk: + fallo teleport vampirico </p> 
+				<p class="campio">2024-04-21 - SirDrunk: + Familia Yoshi salen con el nombre mal </p> 
+				<p class="campio">2024-04-21 - SirDrunk: + Yoshi, usura y boshi listos para salir </p> 
+				<p class="campio">2024-04-16 - SirDrunk: + Cierre de tronos. Un trono cerrado por gm no puede ser abierto </p> 
+				<p class="campio">2024-04-15 - SirDrunk: + Npcs de faccion devuelven a no facciones </p> 
+				<p class="campio">2024-04-15 - SirDrunk: + Npcs de facción tienen menos skills y acierto </p> 
+				<p class="campio">2024-04-15 - SirDrunk: + Más seguridad trono </p> 
+				<p class="campio">2024-04-15 - SirDrunk: + Update stats  npcs de mario </p> 
+				<p class="campio">2024-04-15 - SirDrunk: + Mejora mensajes y seguridad de armadura demoniaca de ocllo. </p> 
+				<a class="font-weight-bold" href="#main">Subir</a>
+			</div>
 		</div>
-		<div class="border rounded p-3 mb-4">
-			<p class="fechaHora">Generado de manera automática el 09/06/2024 a las 19:02:53,71</p> 
-			<p class="campio">2024-06-05 - Coolforehand: + reducido daño calderas de aceite </p> 
-			<p class="campio">2024-06-05 - Coolforehand: + Capado bastón del equilibrio </p> 
-			<p class="campio">2024-06-03 - SirDrunk: +Fallo trono no se apaga de manera correcta </p> 
-			<p class="campio">2024-05-26 - SirDrunk: +Phasma ahora siempre da montura. Tiene 50% de 2. </p> 
-			<p class="campio">2024-05-19 - SirDrunk: + Nuevos stats npcs champ star wars </p> 
-			<p class="campio">2024-05-06 - SirDrunk: + Plaga de raices bajas </p> 
-			<p class="campio">2024-05-01 - SirDrunk: + Terminada fase 2 de cerrajería. </p> 
-			<p class="campio">2024-04-30 - SirDrunk: + Solución fallo de la magia del wyrm blanco </p> 
-			<p class="campio">2024-04-30 - SirDrunk: + Nuevo mensaje para tejedor de mapas </p> 
-			<p class="campio">2024-04-30 - SirDrunk: + Bods de escriba, nuevo tinte para libros con colores especiales. </p> 
-			<p class="campio">2024-04-28 - SirDrunk: + Convierte champis de mario en festejos </p> 
-			<p class="campio">2024-04-28 - SirDrunk: + fallo teleport vampirico </p> 
-			<p class="campio">2024-04-21 - SirDrunk: + Familia Yoshi salen con el nombre mal </p> 
-			<p class="campio">2024-04-21 - SirDrunk: + Yoshi, usura y boshi listos para salir </p> 
-			<p class="campio">2024-04-16 - SirDrunk: + Cierre de tronos. Un trono cerrado por gm no puede ser abierto </p> 
-			<p class="campio">2024-04-15 - SirDrunk: + Npcs de faccion devuelven a no facciones </p> 
-			<p class="campio">2024-04-15 - SirDrunk: + Npcs de facción tienen menos skills y acierto </p> 
-			<p class="campio">2024-04-15 - SirDrunk: + Más seguridad trono </p> 
-			<p class="campio">2024-04-15 - SirDrunk: + Update stats  npcs de mario </p> 
-			<p class="campio">2024-04-15 - SirDrunk: + Mejora mensajes y seguridad de armadura demoniaca de ocllo. </p> 
-			<a class="font-weight-bold" href="#main">Subir</a>
-        </div>
+		
 	</section>
 
 	</main><!-- End #main -->
