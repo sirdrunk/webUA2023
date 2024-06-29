@@ -1900,3 +1900,7 @@ a.Ntooltip:hover span {
 .dark_red{
   color: #800000;
 }
+
+.dark_red:hover a{
+  color: #380000;
+}
