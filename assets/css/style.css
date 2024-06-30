@@ -1901,6 +1901,11 @@ a.Ntooltip:hover span {
   color: #800000;
 }
 
-.dark_red:hover a{
-  color: #380000;
+a.dark_red:hover{
+  color: #630000;
+}
+
+#changelog_2024,#changelog_2023,#changelog_2022,#changelog_2021,#changelog_2020{
+  padding-left: 1em;
+  padding-top: 1em;
 }
