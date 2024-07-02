@@ -1884,8 +1884,8 @@ a.Ntooltip:hover span {
 	top:1em; right:1em; /* donde va a estar */
 	width:200px; /* el ancho por defecto que va a tener */
 	padding:5px; /* la separación entre el contenido y los bordes */
-	background-color: #0B2C3F; /* el color de fondo por defecto */
-	color: #FFFFFF; /* el color de los textos por defecto */
+	background-color: #f5e9db; /* el color de fondo por defecto */
+	color: black; /* el color de los textos por defecto */
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-style: normal;
@@ -1908,4 +1908,8 @@ a.dark_red:hover{
 #changelog_2024,#changelog_2023,#changelog_2022,#changelog_2021,#changelog_2020{
   padding-left: 1em;
   padding-top: 1em;
+}
+
+dt, dd{
+  font-size: 0.9rem;
 }
