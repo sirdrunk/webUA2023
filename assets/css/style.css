@@ -1808,7 +1808,7 @@ section.inner-page{
   font-weight: bold;
 }
 
-#recupera_pass{
+#recupera_pass, #crear_cuenta{
   height: 36em;
   border-top: 2px solid #ffc451;
   border-bottom: 2px solid #ffc451;
@@ -1821,7 +1821,7 @@ section.inner-page{
 
 }
 
-#recupera_pass img{
+#recupera_pass, #crear_cuenta img{
   max-height: 35.8em;
 }
 
@@ -1829,6 +1829,7 @@ section.inner-page{
   text-align: center;
   margin-top: 20%;
 }
+
 
 #recupera_pass h2+p{
   margin-top: 2em;
@@ -1843,7 +1844,7 @@ section.inner-page{
   padding: 6px 10px;
 }
 
-#recupera_pass input[type="submit"]{
+#recupera_pass, #crear_cuenta input[type="submit"]{
   border-radius: 4px;
   padding: 7px 20px;
   font-size: 16px;
@@ -1854,6 +1855,19 @@ section.inner-page{
   background: #ffbb38;
   color: #312000;
   font-weight: bold;
+}
+
+#crear_cuenta h3{
+  text-align: center;
+  margin-top: 10%;
+}
+
+#crear_cuenta label{
+  width: 12em;
+}
+
+#crear_cuenta form input[type="text"]{
+  width: 15rem;
 }
 
 .fechaHora{
