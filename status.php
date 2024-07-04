@@ -156,7 +156,7 @@
 
 			function estado_fortaleza($var){
 				if ($var==0)
-					return '<font color="#0CFF00">Conquistable</font>';
+					return '<font color="#059e17">Conquistable</font>';
 				else if($var==1)
 					return '<font color="#FFC600">Asediándola</font>';
 				else

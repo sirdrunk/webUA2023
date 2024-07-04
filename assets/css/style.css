@@ -1821,7 +1821,7 @@ section.inner-page{
 
 }
 
-#recupera_pass, #crear_cuenta img{
+#recupera_pass img, #crear_cuenta img{
   max-height: 35.8em;
 }
 
@@ -1844,7 +1844,7 @@ section.inner-page{
   padding: 6px 10px;
 }
 
-#recupera_pass, #crear_cuenta input[type="submit"]{
+#recupera_pass input[type="submit"], #crear_cuenta input[type="submit"]{
   border-radius: 4px;
   padding: 7px 20px;
   font-size: 16px;
